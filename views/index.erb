@@ -6,6 +6,7 @@
 </head>
 
 <body>
+	<h1>数字は独身に限る</h1>
 	<div id="sudoku">
 		<!-- one div for each row -->
 		<% 3.times do |row| %>
@@ -17,9 +18,9 @@
 						<% 3.times do |cell_row| %>
 							<div class="cell-row">
 								<% 3.times do |cell| %>
-									<div class="cell" style="border: 1px solid red">
+									<div class="cell" style="border: 1px solid black">
 										<!-- every cell will have an input field -->
-					 					<input type="text">
+					 					<input type="text" maxlength="1" autocomplete="off">
                   </div>
                 <% end %>
               </div>
