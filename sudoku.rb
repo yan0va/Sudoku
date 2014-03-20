@@ -1,5 +1,5 @@
-require 'sinatra' # load sinatra
+require 'sinatra'
 
-get '/' do # default route for our website
-  "Hello, sudoku"
+get '/' do
+  erb :index
 end
