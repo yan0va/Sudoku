@@ -5,6 +5,7 @@ div.box, div.cell {
 .cell input {
 	width: 	50px;
 	height: 50px;
+	border: 1px solid black;
 	box-shadow:inset 2px 2px;
 	font-size: 35; 
 	font-weight: bold;
@@ -29,3 +30,18 @@ body {
 	background-repeat: no-repeat;
 	background-color: #8d8a83
 }
+
+.incorrect {
+	background-color: #f2b0d6;
+}
+
+.value-provided {
+	background-color: #DDD;
+}
+
+
+
+
+
+
+
